@@ -1,0 +1,19 @@
+binary_tree{
+int data;
+binary_tree*left;
+binary_tree*right;
+};//this is the struct of type_binary-tree node;
+
+binary_tree binarySearchTreeCombiner(binary_tree*a,binary_tree*b){
+
+binary_tree x=new binary_tree();//create a new binary tree node with data=0;
+x->left=a;
+x->right=b;
+
+return x; 
+
+Time complexity
+---------------
+O(n), where n=  number of nodes to link?   
+
+}
